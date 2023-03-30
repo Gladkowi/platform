@@ -33,7 +33,7 @@ server {
 
   location /health {
     access_log off;
-    return 200 "OK\n";
+    return 200 "Successful Update!\n";
   }
 
   error_page 500 502 503 504 /50x.html;
